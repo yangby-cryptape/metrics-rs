@@ -24,18 +24,18 @@ name = "histogram"
 harness = false
 
 [dependencies]
-metrics-core = { path = "../metrics-core", version = "^0.5" }
-metrics-util = { path = "../metrics-util", version = "^0.3" }
-metrics = { path = "../metrics", version = "^0.12", features = ["std"] }
+metrics-core = { version = "^0.5" }
+metrics-util = { version = "^0.3" }
+metrics = { version = "^0.12", features = ["std"] }
 arc-swap = "^0.4"
 parking_lot = "^0.11"
 quanta = "^0.3"
 crossbeam-utils = "^0.7"
-metrics-exporter-log = { path = "../metrics-exporter-log", version = "^0.4", optional = true }
-metrics-exporter-http = { path = "../metrics-exporter-http", version = "^0.3", optional = true }
-metrics-observer-yaml = { path = "../metrics-observer-yaml", version = "^0.1", optional = true }
-metrics-observer-prometheus = { path = "../metrics-observer-prometheus", version = "^0.1", optional = true }
-metrics-observer-json = { path = "../metrics-observer-json", version = "^0.1", optional = true }
+metrics-exporter-log = { version = "^0.4", optional = true }
+metrics-exporter-http = { version = "^0.3", optional = true }
+metrics-observer-yaml = { version = "^0.1", optional = true }
+metrics-observer-prometheus = { version = "^0.1", optional = true }
+metrics-observer-json = { version = "^0.1", optional = true }
 atomic-shim = "0.1.0"
 
 [dev-dependencies]
